@@ -1,0 +1,103 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mesa"
+version = "1.0.0"
+description = "MESA - An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Albert Wilcox", email = "albertwilcox@gatech.edu"},
+    {name = "Frank Chang"},
+    {name = "Aishani Chakraborty"},
+    {name = "Nhi Nguyen"},
+    {name = "Jeremy A. Collins"},
+    {name = "Vaibhav Saxena"},
+    {name = "Benjamin Joffe"},
+    {name = "Siddharth Karamcheti"},
+    {name = "Animesh Garg"},
+]
+maintainers = [
+    {name = "Albert Wilcox", email = "albertwilcox@gatech.edu"},
+]
+keywords = [
+    "robotics",
+    "vision-language-action",
+    "benchmark",
+    "manipulation",
+    "simulation",
+    "Robot Learning: Imitation Learning",
+    "Robot Learning: Found Models",
+    "Robot Learning: Datasets",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = "==3.10.*"
+dependencies = [
+    # Core dependencies
+    "bddl",
+    "easydict",
+    "transforms3d",
+    "matplotlib",
+    "numpy>=1.26,<2.0",
+    "opencv-python==4.6.0.66",
+    "mujoco==3.4.0",
+    
+    # Robotics and simulation
+    "robosuite==1.5.1",
+    
+    # Data handling
+    "h5py",
+    "tqdm",
+    "termcolor",
+    "gdown==5.2.1",
+    
+    # Utilities
+    "pathlib",
+    "argparse",
+    "pyqt5",
+    "tyro==0.9.31",
+    "natsort==8.4.0",
+    "imageio[ffmpeg]==2.37.2",
+    "pyinstrument==5.1.1",
+    "openpi_client",
+]
+
+[project.optional-dependencies]
+lerobot = [
+    "lerobot",
+    "datasets<4",
+    "huggingface_hub>=0.27.1",
+]
+docs = [
+    "sphinx-book-theme",
+    "myst-parser",
+    "sphinx-copybutton",
+    "sphinx-autobuild>=2024.10.3",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.uv.sources]
+openpi_client = { path = "third_party/openpi-client", editable = true}
+lerobot = { git = "https://github.com/huggingface/lerobot", rev = "0cf864870cf29f4738d3ade893e6fd13fbd7cdb5" }
+
+[tool.hatch.build.targets.wheel]
+packages = [
+    "mesa",
+    "third_party/openpi-client",
+]
