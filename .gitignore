@@ -174,29 +174,3 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# mimiclabs/mimiclabs/envs/robocasa_models/assets/demonstrations_private
-
-# model zoo
-# mimiclabs/mimiclabs/envs/robocasa_models/assets/model_zoo_assets
-
-mimiclabs/mimiclabs/assets/
-
-# object assets
-mimiclabs/mimiclabs/assets/objects/robocasa/
-
-# fixture assets
-mimiclabs/mimiclabs/assets/fixtures/**/*.glb
-mimiclabs/mimiclabs/assets/fixtures/**/*.obj
-mimiclabs/mimiclabs/assets/fixtures/**/*.mtl
-mimiclabs/mimiclabs/assets/fixtures/**/*.blend
-mimiclabs/mimiclabs/assets/fixtures/**/*.blend1
-mimiclabs/mimiclabs/assets/fixtures/**/*.mp4
-mimiclabs/mimiclabs/assets/fixtures/**/*.png
-mimiclabs/mimiclabs/assets/fixtures/**/*.jpeg
-
-# default textures
-mimiclabs/mimiclabs/assets/textures/robocasa_textures
-mimiclabs/mimiclabs/assets/textures/robocasa_generative_textures
-
-
-# midjourney-generated textures
