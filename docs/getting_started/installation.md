@@ -2,7 +2,7 @@
 
 This project uses `uv` for dependency and environment management. The installation instructions have been tested on Ubuntu 24.04.
 
-## 1) Install uv
+## 0) Install uv
 
 Follow the official `uv` installation instructions [found here](https://docs.astral.sh/uv/getting-started/installation/).
 
@@ -10,6 +10,20 @@ Verify your installation:
 
 ```bash
 uv --version
+```
+
+## 1) Clone MESA
+
+First clone the repository
+
+```bash
+git clone https://github.com/pairlab/mesa-env.git mesa
+```
+
+and navigate into it
+
+```bash
+cd mesa
 ```
 
 ## 2) Install project dependencies
