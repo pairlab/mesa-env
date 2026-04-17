@@ -129,8 +129,8 @@ def _env_worker_loop(
             )
             continue
 
-        parsed_problem = eval_set.get_parsed_problem(spec.task_id, spec.episode_idx % eval_set.n_tasks)
-        init_state = eval_set.get_init_state(spec.task_id, spec.episode_idx % eval_set.n_tasks)
+        parsed_problem = eval_set.get_parsed_problem(spec.task_id, spec.episode_idx)
+        init_state = eval_set.get_init_state(spec.task_id, spec.episode_idx)
         env: BDDLBaseDomain = make_env(
             parsed_problem=parsed_problem,
             controller_type=args.controller_type,

@@ -48,6 +48,9 @@ class EvalSet:
         return self.tasks
 
     def get_parsed_problem(self, task_idx: int, instance_idx: int) -> dict:
+        num_instances = len(os.listdir(os.path.join(self.task_suite_path, self.tasks[task_idx], self.split)))
+        instance_idx = instance_idx % num_instances
+
         if (task_idx, instance_idx) in self._parsed_problems_cache:
             return self._parsed_problems_cache[(task_idx, instance_idx)]
         task_folder = os.path.join(self.task_suite_path, self.tasks[task_idx], self.split)
