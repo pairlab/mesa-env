@@ -63,7 +63,7 @@ dependencies = [
     "h5py",
     "tqdm",
     "termcolor",
-    "gdown==5.2.1",
+    "gdown==5.2.2",
     
     # Utilities
     "pathlib",
