@@ -1,0 +1,419 @@
+{
+    "problem_name": "mimiclabs_lab1_tabletop_manipulation",
+    "fixtures": {
+        "table": [
+            "table"
+        ],
+        "cabinet_601": [
+            "cabinet_0"
+        ]
+    },
+    "regions": {
+        "table_object_0_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.0
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_egg_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_plate_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_orange_ai_3_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_dest_object_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.0
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                0.0,
+                0.0
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_cabinet_0_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    -0.15,
+                    -0.4,
+                    -0.05,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                0.0,
+                0.0
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "dest_object_contain_region": {
+            "target": "dest_object",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "cabinet_0_top_region": {
+            "target": "cabinet_0",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "cabinet_0_middle_region": {
+            "target": "cabinet_0",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "cabinet_0_bottom_region": {
+            "target": "cabinet_0",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        }
+    },
+    "objects": {
+        "robocasa_ai_bell_pepper_4": [
+            "object_0"
+        ],
+        "robocasa_egg_6": [
+            "egg_1"
+        ],
+        "robocasa_plate_19": [
+            "plate_2"
+        ],
+        "robocasa_ai_orange_4": [
+            "orange_ai_3"
+        ],
+        "basket": [
+            "dest_object"
+        ]
+    },
+    "textures": {},
+    "camera": {
+        "rightshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 1.5707963267948966,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "leftshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": -1.5707963267948966,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "midshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 0.0,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "egocentric": {
+            "r": 1.3,
+            "theta": 0.39479111969976155,
+            "phi": 0.0,
+            "tilt": 0.0,
+            "pan": 0.0,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        }
+    },
+    "lighting": {},
+    "styles": {},
+    "scene_properties": {},
+    "initial_state": [
+        [
+            "on",
+            "object_0",
+            "table_object_0_init_region"
+        ],
+        [
+            "on",
+            "egg_1",
+            "table_egg_1_init_region"
+        ],
+        [
+            "on",
+            "plate_2",
+            "table_plate_2_init_region"
+        ],
+        [
+            "on",
+            "orange_ai_3",
+            "table_orange_ai_3_init_region"
+        ],
+        [
+            "on",
+            "dest_object",
+            "table_dest_object_init_region"
+        ],
+        [
+            "on",
+            "cabinet_0",
+            "table_cabinet_0_init_region"
+        ]
+    ],
+    "goal_state": [
+        "and",
+        [
+            "in",
+            "object_0",
+            "dest_object_contain_region"
+        ]
+    ],
+    "distractor_goal_specs": [
+        [
+            "in",
+            "object_0",
+            "cabinet_0_bottom_region"
+        ],
+        [
+            "in",
+            "object_0",
+            "cabinet_0_middle_region"
+        ],
+        [
+            "in",
+            "object_0",
+            "cabinet_0_top_region"
+        ],
+        [
+            "on",
+            "object_0",
+            "plate_2"
+        ],
+        [
+            "in",
+            "egg_1",
+            "dest_object_contain_region"
+        ],
+        [
+            "in",
+            "egg_1",
+            "cabinet_0_bottom_region"
+        ],
+        [
+            "in",
+            "egg_1",
+            "cabinet_0_middle_region"
+        ],
+        [
+            "in",
+            "egg_1",
+            "cabinet_0_top_region"
+        ],
+        [
+            "on",
+            "egg_1",
+            "plate_2"
+        ],
+        [
+            "in",
+            "plate_2",
+            "dest_object_contain_region"
+        ],
+        [
+            "in",
+            "plate_2",
+            "cabinet_0_bottom_region"
+        ],
+        [
+            "in",
+            "plate_2",
+            "cabinet_0_middle_region"
+        ],
+        [
+            "in",
+            "plate_2",
+            "cabinet_0_top_region"
+        ],
+        [
+            "on",
+            "plate_2",
+            "plate_2"
+        ],
+        [
+            "in",
+            "orange_ai_3",
+            "dest_object_contain_region"
+        ],
+        [
+            "in",
+            "orange_ai_3",
+            "cabinet_0_bottom_region"
+        ],
+        [
+            "in",
+            "orange_ai_3",
+            "cabinet_0_middle_region"
+        ],
+        [
+            "in",
+            "orange_ai_3",
+            "cabinet_0_top_region"
+        ],
+        [
+            "on",
+            "orange_ai_3",
+            "plate_2"
+        ]
+    ],
+    "demonstration_states": [
+        [
+            "grasp",
+            "object_0"
+        ],
+        [
+            "in",
+            "object_0",
+            "dest_object_contain_region"
+        ]
+    ],
+    "language_instruction": [
+        "put",
+        "the",
+        "bell",
+        "pepper",
+        "in",
+        "the",
+        "basket"
+    ]
+}

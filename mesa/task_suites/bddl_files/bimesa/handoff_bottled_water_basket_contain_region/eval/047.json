@@ -1,0 +1,442 @@
+{
+    "problem_name": "mimiclabs_lab1_tabletop_manipulation",
+    "fixtures": {
+        "table": [
+            "table"
+        ],
+        "slide_cabinet_382": [
+            "slide_cabinet_0"
+        ]
+    },
+    "regions": {
+        "table_object_0_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.0
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_scone_ai_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_hot_dog_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_mug_3_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_dest_object_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    0.0,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                0.0,
+                0.0
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_pan_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_slide_cabinet_0_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    -0.15,
+                    -0.4,
+                    -0.05,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                0.0,
+                0.0
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "dest_object_contain_region": {
+            "target": "dest_object",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "pan_1_on": {
+            "target": "pan_1",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "slide_cabinet_0_contain_region": {
+            "target": "slide_cabinet_0",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        }
+    },
+    "objects": {
+        "robocasa_bottled_water_14": [
+            "object_0"
+        ],
+        "robocasa_ai_scone_3": [
+            "scone_ai_1"
+        ],
+        "robocasa_hot_dog_3": [
+            "hot_dog_2"
+        ],
+        "robocasa_mug_16": [
+            "mug_3"
+        ],
+        "basket": [
+            "dest_object"
+        ],
+        "robocasa_pan_21": [
+            "pan_1"
+        ]
+    },
+    "textures": {},
+    "camera": {
+        "rightshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 1.5707963267948966,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "leftshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": -1.5707963267948966,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "midshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 0.0,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "egocentric": {
+            "r": 1.3,
+            "theta": 0.39479111969976155,
+            "phi": 0.0,
+            "tilt": 0.0,
+            "pan": 0.0,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        }
+    },
+    "lighting": {},
+    "styles": {},
+    "scene_properties": {},
+    "initial_state": [
+        [
+            "on",
+            "object_0",
+            "table_object_0_init_region"
+        ],
+        [
+            "on",
+            "scone_ai_1",
+            "table_scone_ai_1_init_region"
+        ],
+        [
+            "on",
+            "hot_dog_2",
+            "table_hot_dog_2_init_region"
+        ],
+        [
+            "on",
+            "mug_3",
+            "table_mug_3_init_region"
+        ],
+        [
+            "on",
+            "dest_object",
+            "table_dest_object_init_region"
+        ],
+        [
+            "on",
+            "pan_1",
+            "table_pan_1_init_region"
+        ],
+        [
+            "on",
+            "slide_cabinet_0",
+            "table_slide_cabinet_0_init_region"
+        ]
+    ],
+    "goal_state": [
+        "and",
+        [
+            "in",
+            "object_0",
+            "dest_object_contain_region"
+        ]
+    ],
+    "distractor_goal_specs": [
+        [
+            "in",
+            "object_0",
+            "slide_cabinet_0_contain_region"
+        ],
+        [
+            "on",
+            "object_0",
+            "mug_3"
+        ],
+        [
+            "on",
+            "object_0",
+            "pan_1"
+        ],
+        [
+            "in",
+            "scone_ai_1",
+            "dest_object_contain_region"
+        ],
+        [
+            "in",
+            "scone_ai_1",
+            "slide_cabinet_0_contain_region"
+        ],
+        [
+            "on",
+            "scone_ai_1",
+            "mug_3"
+        ],
+        [
+            "on",
+            "scone_ai_1",
+            "pan_1"
+        ],
+        [
+            "in",
+            "hot_dog_2",
+            "dest_object_contain_region"
+        ],
+        [
+            "in",
+            "hot_dog_2",
+            "slide_cabinet_0_contain_region"
+        ],
+        [
+            "on",
+            "hot_dog_2",
+            "mug_3"
+        ],
+        [
+            "on",
+            "hot_dog_2",
+            "pan_1"
+        ],
+        [
+            "in",
+            "mug_3",
+            "dest_object_contain_region"
+        ],
+        [
+            "in",
+            "mug_3",
+            "slide_cabinet_0_contain_region"
+        ],
+        [
+            "on",
+            "mug_3",
+            "mug_3"
+        ],
+        [
+            "on",
+            "mug_3",
+            "pan_1"
+        ],
+        [
+            "in",
+            "pan_1",
+            "dest_object_contain_region"
+        ],
+        [
+            "in",
+            "pan_1",
+            "slide_cabinet_0_contain_region"
+        ],
+        [
+            "on",
+            "pan_1",
+            "mug_3"
+        ],
+        [
+            "on",
+            "pan_1",
+            "pan_1"
+        ]
+    ],
+    "demonstration_states": [
+        [
+            "grasp_left",
+            "object_0"
+        ],
+        [
+            "lifted",
+            "object_0"
+        ],
+        [
+            "grasp_right",
+            "object_0"
+        ],
+        [
+            "in",
+            "object_0",
+            "dest_object_contain_region"
+        ]
+    ],
+    "language_instruction": [
+        "put",
+        "the",
+        "bottled",
+        "water",
+        "in",
+        "the",
+        "basket"
+    ]
+}

@@ -1,0 +1,424 @@
+{
+    "problem_name": "mimiclabs_lab1_tabletop_manipulation",
+    "fixtures": {
+        "table": [
+            "table"
+        ],
+        "microwave_54": [
+            "microwave_54_1"
+        ]
+    },
+    "regions": {
+        "table_microwave_54_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    -0.15,
+                    -0.4,
+                    -0.05,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_object_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_eggplant_1_32_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_cutting_board_16_32_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_corn_3_32_3_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_basket_32_4_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_orange_2_32_5_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_white_bowl_32_6_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "basket_32_4_contain_region": {
+            "target": "basket_32_4",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "microwave_54_1_heating_region": {
+            "target": "microwave_54_1",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        }
+    },
+    "objects": {
+        "robocasa_potato_14": [
+            "object_1"
+        ],
+        "robocasa_eggplant_1": [
+            "robocasa_eggplant_1_32_1"
+        ],
+        "robocasa_cutting_board_16": [
+            "robocasa_cutting_board_16_32_2"
+        ],
+        "robocasa_corn_3": [
+            "robocasa_corn_3_32_3"
+        ],
+        "basket": [
+            "basket_32_4"
+        ],
+        "robocasa_orange_2": [
+            "robocasa_orange_2_32_5"
+        ],
+        "white_bowl": [
+            "white_bowl_32_6"
+        ]
+    },
+    "textures": {},
+    "camera": {
+        "rightshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        },
+        "leftshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": -0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        }
+    },
+    "lighting": {},
+    "styles": {
+        "floor": "8776902b-74c1-4a54-94f2-320b4e89b5df",
+        "wall": "gray_wall",
+        "table": "f29cfb8b-d640-48a4-ae5e-02395ed7c6db"
+    },
+    "scene_properties": {},
+    "initial_state": [
+        [
+            "on",
+            "microwave_54_1",
+            "table_microwave_54_1_init_region"
+        ],
+        [
+            "on",
+            "object_1",
+            "table_object_1_init_region"
+        ],
+        [
+            "on",
+            "robocasa_eggplant_1_32_1",
+            "table_robocasa_eggplant_1_32_1_init_region"
+        ],
+        [
+            "on",
+            "robocasa_cutting_board_16_32_2",
+            "table_robocasa_cutting_board_16_32_2_init_region"
+        ],
+        [
+            "on",
+            "robocasa_corn_3_32_3",
+            "table_robocasa_corn_3_32_3_init_region"
+        ],
+        [
+            "on",
+            "basket_32_4",
+            "table_basket_32_4_init_region"
+        ],
+        [
+            "on",
+            "robocasa_orange_2_32_5",
+            "table_robocasa_orange_2_32_5_init_region"
+        ],
+        [
+            "on",
+            "white_bowl_32_6",
+            "table_white_bowl_32_6_init_region"
+        ],
+        [
+            "open",
+            "microwave_54_1"
+        ]
+    ],
+    "goal_state": [
+        "and",
+        [
+            "close",
+            "microwave_54_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "microwave_54_1_heating_region"
+        ]
+    ],
+    "distractor_goal_specs": [
+        [
+            "in",
+            "object_1",
+            "basket_32_4_contain_region"
+        ],
+        [
+            "on",
+            "object_1",
+            "robocasa_cutting_board_16_32_2"
+        ],
+        [
+            "in",
+            "robocasa_eggplant_1_32_1",
+            "basket_32_4_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_eggplant_1_32_1",
+            "microwave_54_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_eggplant_1_32_1",
+            "robocasa_cutting_board_16_32_2"
+        ],
+        [
+            "in",
+            "robocasa_corn_3_32_3",
+            "basket_32_4_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_corn_3_32_3",
+            "microwave_54_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_corn_3_32_3",
+            "robocasa_cutting_board_16_32_2"
+        ],
+        [
+            "in",
+            "robocasa_orange_2_32_5",
+            "basket_32_4_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_orange_2_32_5",
+            "microwave_54_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_orange_2_32_5",
+            "robocasa_cutting_board_16_32_2"
+        ],
+        [
+            "in",
+            "white_bowl_32_6",
+            "basket_32_4_contain_region"
+        ],
+        [
+            "in",
+            "white_bowl_32_6",
+            "microwave_54_1_heating_region"
+        ],
+        [
+            "on",
+            "white_bowl_32_6",
+            "robocasa_cutting_board_16_32_2"
+        ]
+    ],
+    "demonstration_states": [
+        [
+            "grasp",
+            "object_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "microwave_54_1_heating_region"
+        ],
+        [
+            "close",
+            "microwave_54_1"
+        ]
+    ],
+    "language_instruction": [
+        "put",
+        "the",
+        "potato",
+        "in",
+        "the",
+        "microwave",
+        "and",
+        "close",
+        "it"
+    ]
+}

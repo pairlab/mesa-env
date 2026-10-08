@@ -1,0 +1,465 @@
+{
+    "problem_name": "mimiclabs_lab1_tabletop_manipulation",
+    "fixtures": {
+        "table": [
+            "table"
+        ],
+        "microwave_56": [
+            "microwave_56_1"
+        ]
+    },
+    "regions": {
+        "table_microwave_56_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    -0.15,
+                    -0.4,
+                    -0.05,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_object_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_potato_13_20_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_pan_11_20_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_fish_7_20_3_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_tray_7_20_4_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_candle_0_20_5_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_apple_2_20_6_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_garlic_1_20_7_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "microwave_56_1_heating_region": {
+            "target": "microwave_56_1",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        }
+    },
+    "objects": {
+        "robocasa_squash_1": [
+            "object_1"
+        ],
+        "robocasa_potato_13": [
+            "robocasa_potato_13_20_1"
+        ],
+        "robocasa_pan_11": [
+            "robocasa_pan_11_20_2"
+        ],
+        "robocasa_fish_7": [
+            "robocasa_fish_7_20_3"
+        ],
+        "robocasa_tray_7": [
+            "robocasa_tray_7_20_4"
+        ],
+        "robocasa_candle_0": [
+            "robocasa_candle_0_20_5"
+        ],
+        "robocasa_apple_2": [
+            "robocasa_apple_2_20_6"
+        ],
+        "robocasa_garlic_1": [
+            "robocasa_garlic_1_20_7"
+        ]
+    },
+    "textures": {},
+    "camera": {
+        "rightshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        },
+        "leftshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": -0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        }
+    },
+    "lighting": {},
+    "styles": {
+        "floor": "dbdd0778-8700-4967-bb52-75bbfa7eb29c",
+        "wall": "light_blue_wall",
+        "table": "wood_planks_2"
+    },
+    "scene_properties": {},
+    "initial_state": [
+        [
+            "on",
+            "microwave_56_1",
+            "table_microwave_56_1_init_region"
+        ],
+        [
+            "on",
+            "object_1",
+            "table_object_1_init_region"
+        ],
+        [
+            "on",
+            "robocasa_potato_13_20_1",
+            "table_robocasa_potato_13_20_1_init_region"
+        ],
+        [
+            "on",
+            "robocasa_pan_11_20_2",
+            "table_robocasa_pan_11_20_2_init_region"
+        ],
+        [
+            "on",
+            "robocasa_fish_7_20_3",
+            "table_robocasa_fish_7_20_3_init_region"
+        ],
+        [
+            "on",
+            "robocasa_tray_7_20_4",
+            "table_robocasa_tray_7_20_4_init_region"
+        ],
+        [
+            "on",
+            "robocasa_candle_0_20_5",
+            "table_robocasa_candle_0_20_5_init_region"
+        ],
+        [
+            "on",
+            "robocasa_apple_2_20_6",
+            "table_robocasa_apple_2_20_6_init_region"
+        ],
+        [
+            "on",
+            "robocasa_garlic_1_20_7",
+            "table_robocasa_garlic_1_20_7_init_region"
+        ]
+    ],
+    "goal_state": [
+        "and",
+        [
+            "open",
+            "microwave_56_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "microwave_56_1_heating_region"
+        ]
+    ],
+    "distractor_goal_specs": [
+        [
+            "on",
+            "object_1",
+            "robocasa_pan_11_20_2"
+        ],
+        [
+            "on",
+            "object_1",
+            "robocasa_tray_7_20_4"
+        ],
+        [
+            "in",
+            "robocasa_potato_13_20_1",
+            "microwave_56_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_potato_13_20_1",
+            "robocasa_pan_11_20_2"
+        ],
+        [
+            "on",
+            "robocasa_potato_13_20_1",
+            "robocasa_tray_7_20_4"
+        ],
+        [
+            "in",
+            "robocasa_pan_11_20_2",
+            "microwave_56_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_pan_11_20_2",
+            "robocasa_pan_11_20_2"
+        ],
+        [
+            "on",
+            "robocasa_pan_11_20_2",
+            "robocasa_tray_7_20_4"
+        ],
+        [
+            "in",
+            "robocasa_fish_7_20_3",
+            "microwave_56_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_fish_7_20_3",
+            "robocasa_pan_11_20_2"
+        ],
+        [
+            "on",
+            "robocasa_fish_7_20_3",
+            "robocasa_tray_7_20_4"
+        ],
+        [
+            "in",
+            "robocasa_candle_0_20_5",
+            "microwave_56_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_candle_0_20_5",
+            "robocasa_pan_11_20_2"
+        ],
+        [
+            "on",
+            "robocasa_candle_0_20_5",
+            "robocasa_tray_7_20_4"
+        ],
+        [
+            "in",
+            "robocasa_apple_2_20_6",
+            "microwave_56_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_apple_2_20_6",
+            "robocasa_pan_11_20_2"
+        ],
+        [
+            "on",
+            "robocasa_apple_2_20_6",
+            "robocasa_tray_7_20_4"
+        ],
+        [
+            "in",
+            "robocasa_garlic_1_20_7",
+            "microwave_56_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_garlic_1_20_7",
+            "robocasa_pan_11_20_2"
+        ],
+        [
+            "on",
+            "robocasa_garlic_1_20_7",
+            "robocasa_tray_7_20_4"
+        ]
+    ],
+    "demonstration_states": [
+        [
+            "open",
+            "microwave_56_1"
+        ],
+        [
+            "grasp",
+            "object_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "microwave_56_1_heating_region"
+        ]
+    ],
+    "language_instruction": [
+        "open",
+        "the",
+        "microwave",
+        "and",
+        "put",
+        "the",
+        "squash",
+        "in",
+        "it"
+    ]
+}
