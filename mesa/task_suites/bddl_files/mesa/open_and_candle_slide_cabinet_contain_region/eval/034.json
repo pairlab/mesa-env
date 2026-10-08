@@ -1,0 +1,431 @@
+{
+    "problem_name": "mimiclabs_lab1_tabletop_manipulation",
+    "fixtures": {
+        "table": [
+            "table"
+        ],
+        "slide_cabinet_388": [
+            "slide_cabinet_388_1"
+        ]
+    },
+    "regions": {
+        "table_slide_cabinet_388_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    -0.15,
+                    -0.4,
+                    -0.05,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_object_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_beer_15_35_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_tray_12_35_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_tomato_8_35_3_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_yellow_book_35_4_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_croissant_2_35_5_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_squash_0_35_6_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_bottled_water_3_35_7_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "slide_cabinet_388_1_contain_region": {
+            "target": "slide_cabinet_388_1",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        }
+    },
+    "objects": {
+        "robocasa_candle_4": [
+            "object_1"
+        ],
+        "robocasa_beer_15": [
+            "robocasa_beer_15_35_1"
+        ],
+        "robocasa_tray_12": [
+            "robocasa_tray_12_35_2"
+        ],
+        "robocasa_tomato_8": [
+            "robocasa_tomato_8_35_3"
+        ],
+        "yellow_book": [
+            "yellow_book_35_4"
+        ],
+        "robocasa_croissant_2": [
+            "robocasa_croissant_2_35_5"
+        ],
+        "robocasa_squash_0": [
+            "robocasa_squash_0_35_6"
+        ],
+        "robocasa_bottled_water_3": [
+            "robocasa_bottled_water_3_35_7"
+        ]
+    },
+    "textures": {},
+    "camera": {
+        "rightshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        },
+        "leftshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": -0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        }
+    },
+    "lighting": {},
+    "styles": {
+        "floor": "8776902b-74c1-4a54-94f2-320b4e89b5df",
+        "wall": "dark_blue_wall",
+        "table": "table_light_wood"
+    },
+    "scene_properties": {},
+    "initial_state": [
+        [
+            "on",
+            "slide_cabinet_388_1",
+            "table_slide_cabinet_388_1_init_region"
+        ],
+        [
+            "on",
+            "object_1",
+            "table_object_1_init_region"
+        ],
+        [
+            "on",
+            "robocasa_beer_15_35_1",
+            "table_robocasa_beer_15_35_1_init_region"
+        ],
+        [
+            "on",
+            "robocasa_tray_12_35_2",
+            "table_robocasa_tray_12_35_2_init_region"
+        ],
+        [
+            "on",
+            "robocasa_tomato_8_35_3",
+            "table_robocasa_tomato_8_35_3_init_region"
+        ],
+        [
+            "on",
+            "yellow_book_35_4",
+            "table_yellow_book_35_4_init_region"
+        ],
+        [
+            "on",
+            "robocasa_croissant_2_35_5",
+            "table_robocasa_croissant_2_35_5_init_region"
+        ],
+        [
+            "on",
+            "robocasa_squash_0_35_6",
+            "table_robocasa_squash_0_35_6_init_region"
+        ],
+        [
+            "on",
+            "robocasa_bottled_water_3_35_7",
+            "table_robocasa_bottled_water_3_35_7_init_region"
+        ]
+    ],
+    "goal_state": [
+        "and",
+        [
+            "open",
+            "slide_cabinet_388_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "slide_cabinet_388_1_contain_region"
+        ]
+    ],
+    "distractor_goal_specs": [
+        [
+            "on",
+            "object_1",
+            "robocasa_tray_12_35_2"
+        ],
+        [
+            "in",
+            "robocasa_beer_15_35_1",
+            "slide_cabinet_388_1_contain_region"
+        ],
+        [
+            "on",
+            "robocasa_beer_15_35_1",
+            "robocasa_tray_12_35_2"
+        ],
+        [
+            "in",
+            "robocasa_tomato_8_35_3",
+            "slide_cabinet_388_1_contain_region"
+        ],
+        [
+            "on",
+            "robocasa_tomato_8_35_3",
+            "robocasa_tray_12_35_2"
+        ],
+        [
+            "in",
+            "yellow_book_35_4",
+            "slide_cabinet_388_1_contain_region"
+        ],
+        [
+            "on",
+            "yellow_book_35_4",
+            "robocasa_tray_12_35_2"
+        ],
+        [
+            "in",
+            "robocasa_croissant_2_35_5",
+            "slide_cabinet_388_1_contain_region"
+        ],
+        [
+            "on",
+            "robocasa_croissant_2_35_5",
+            "robocasa_tray_12_35_2"
+        ],
+        [
+            "in",
+            "robocasa_squash_0_35_6",
+            "slide_cabinet_388_1_contain_region"
+        ],
+        [
+            "on",
+            "robocasa_squash_0_35_6",
+            "robocasa_tray_12_35_2"
+        ],
+        [
+            "in",
+            "robocasa_bottled_water_3_35_7",
+            "slide_cabinet_388_1_contain_region"
+        ],
+        [
+            "on",
+            "robocasa_bottled_water_3_35_7",
+            "robocasa_tray_12_35_2"
+        ]
+    ],
+    "demonstration_states": [
+        [
+            "open",
+            "slide_cabinet_388_1"
+        ],
+        [
+            "grasp",
+            "object_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "slide_cabinet_388_1_contain_region"
+        ]
+    ],
+    "language_instruction": [
+        "open",
+        "the",
+        "slide",
+        "cabinet",
+        "and",
+        "put",
+        "the",
+        "candle",
+        "in",
+        "it"
+    ]
+}

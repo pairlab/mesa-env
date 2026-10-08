@@ -1,0 +1,435 @@
+{
+    "problem_name": "mimiclabs_lab1_tabletop_manipulation",
+    "fixtures": {
+        "table": [
+            "table"
+        ],
+        "slide_cabinet_728": [
+            "slide_cabinet_728_distractor_1"
+        ]
+    },
+    "regions": {
+        "table_slide_cabinet_728_distractor_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    -0.15,
+                    -0.4,
+                    -0.05,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_object_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_object_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_basket_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_jug_4_43_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_white_bowl_43_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_water_bottle_3_43_3_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_plate_2_43_4_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "basket_1_contain_region": {
+            "target": "basket_1",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "slide_cabinet_728_distractor_1_contain_region": {
+            "target": "slide_cabinet_728_distractor_1",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        }
+    },
+    "objects": {
+        "robocasa_lemon_6": [
+            "object_1"
+        ],
+        "robocasa_lime_2": [
+            "object_2"
+        ],
+        "basket": [
+            "basket_1"
+        ],
+        "robocasa_jug_4": [
+            "robocasa_jug_4_43_1"
+        ],
+        "white_bowl": [
+            "white_bowl_43_2"
+        ],
+        "robocasa_water_bottle_3": [
+            "robocasa_water_bottle_3_43_3"
+        ],
+        "robocasa_plate_2": [
+            "robocasa_plate_2_43_4"
+        ]
+    },
+    "textures": {},
+    "camera": {
+        "rightshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        },
+        "leftshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": -0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        }
+    },
+    "lighting": {},
+    "styles": {
+        "floor": "ef044eea-9ebe-475e-bc05-d4e9d9255e39",
+        "wall": "wall8",
+        "table": "table_light_wood"
+    },
+    "scene_properties": {},
+    "initial_state": [
+        [
+            "on",
+            "slide_cabinet_728_distractor_1",
+            "table_slide_cabinet_728_distractor_1_init_region"
+        ],
+        [
+            "on",
+            "object_1",
+            "table_object_1_init_region"
+        ],
+        [
+            "on",
+            "object_2",
+            "table_object_2_init_region"
+        ],
+        [
+            "on",
+            "basket_1",
+            "table_basket_1_init_region"
+        ],
+        [
+            "on",
+            "robocasa_jug_4_43_1",
+            "table_robocasa_jug_4_43_1_init_region"
+        ],
+        [
+            "on",
+            "white_bowl_43_2",
+            "table_white_bowl_43_2_init_region"
+        ],
+        [
+            "on",
+            "robocasa_water_bottle_3_43_3",
+            "table_robocasa_water_bottle_3_43_3_init_region"
+        ],
+        [
+            "on",
+            "robocasa_plate_2_43_4",
+            "table_robocasa_plate_2_43_4_init_region"
+        ]
+    ],
+    "goal_state": [
+        "and",
+        [
+            "in",
+            "object_1",
+            "basket_1_contain_region"
+        ],
+        [
+            "in",
+            "object_2",
+            "basket_1_contain_region"
+        ]
+    ],
+    "distractor_goal_specs": [
+        [
+            "in",
+            "object_1",
+            "slide_cabinet_728_distractor_1_contain_region"
+        ],
+        [
+            "on",
+            "object_1",
+            "robocasa_plate_2_43_4"
+        ],
+        [
+            "in",
+            "object_2",
+            "slide_cabinet_728_distractor_1_contain_region"
+        ],
+        [
+            "on",
+            "object_2",
+            "robocasa_plate_2_43_4"
+        ],
+        [
+            "in",
+            "robocasa_jug_4_43_1",
+            "basket_1_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_jug_4_43_1",
+            "slide_cabinet_728_distractor_1_contain_region"
+        ],
+        [
+            "on",
+            "robocasa_jug_4_43_1",
+            "robocasa_plate_2_43_4"
+        ],
+        [
+            "in",
+            "white_bowl_43_2",
+            "basket_1_contain_region"
+        ],
+        [
+            "in",
+            "white_bowl_43_2",
+            "slide_cabinet_728_distractor_1_contain_region"
+        ],
+        [
+            "on",
+            "white_bowl_43_2",
+            "robocasa_plate_2_43_4"
+        ],
+        [
+            "in",
+            "robocasa_water_bottle_3_43_3",
+            "basket_1_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_water_bottle_3_43_3",
+            "slide_cabinet_728_distractor_1_contain_region"
+        ],
+        [
+            "on",
+            "robocasa_water_bottle_3_43_3",
+            "robocasa_plate_2_43_4"
+        ],
+        [
+            "in",
+            "robocasa_plate_2_43_4",
+            "basket_1_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_plate_2_43_4",
+            "slide_cabinet_728_distractor_1_contain_region"
+        ],
+        [
+            "on",
+            "robocasa_plate_2_43_4",
+            "robocasa_plate_2_43_4"
+        ]
+    ],
+    "demonstration_states": [
+        [
+            "grasp",
+            "object_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "basket_1_contain_region"
+        ],
+        [
+            "grasp",
+            "object_2"
+        ],
+        [
+            "in",
+            "object_2",
+            "basket_1_contain_region"
+        ]
+    ],
+    "language_instruction": [
+        "put",
+        "the",
+        "lemon",
+        "and",
+        "lime",
+        "in",
+        "the",
+        "basket"
+    ]
+}

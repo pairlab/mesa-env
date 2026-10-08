@@ -1,0 +1,356 @@
+{
+    "problem_name": "mimiclabs_lab1_tabletop_manipulation",
+    "fixtures": {
+        "table": [
+            "table"
+        ],
+        "microwave_46": [
+            "microwave_0"
+        ]
+    },
+    "regions": {
+        "table_object_0_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.0
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_plate_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_carrot_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_beer_3_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_dest_object_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    0.0,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                0.0,
+                0.0
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_microwave_0_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    -0.15,
+                    -0.4,
+                    -0.05,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                0.0,
+                0.0
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "dest_object_contain_region": {
+            "target": "dest_object",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "microwave_0_heating_region": {
+            "target": "microwave_0",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        }
+    },
+    "objects": {
+        "robocasa_ai_thermos_2": [
+            "object_0"
+        ],
+        "robocasa_plate_13": [
+            "plate_1"
+        ],
+        "robocasa_carrot_2": [
+            "carrot_2"
+        ],
+        "robocasa_beer_5": [
+            "beer_3"
+        ],
+        "basket": [
+            "dest_object"
+        ]
+    },
+    "textures": {},
+    "camera": {
+        "rightshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 1.5707963267948966,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "leftshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": -1.5707963267948966,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "midshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 0.0,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "egocentric": {
+            "r": 1.3,
+            "theta": 0.39479111969976155,
+            "phi": 0.0,
+            "tilt": 0.0,
+            "pan": 0.0,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        }
+    },
+    "lighting": {},
+    "styles": {},
+    "scene_properties": {},
+    "initial_state": [
+        [
+            "on",
+            "object_0",
+            "table_object_0_init_region"
+        ],
+        [
+            "on",
+            "plate_1",
+            "table_plate_1_init_region"
+        ],
+        [
+            "on",
+            "carrot_2",
+            "table_carrot_2_init_region"
+        ],
+        [
+            "on",
+            "beer_3",
+            "table_beer_3_init_region"
+        ],
+        [
+            "on",
+            "dest_object",
+            "table_dest_object_init_region"
+        ],
+        [
+            "on",
+            "microwave_0",
+            "table_microwave_0_init_region"
+        ]
+    ],
+    "goal_state": [
+        "and",
+        [
+            "in",
+            "object_0",
+            "dest_object_contain_region"
+        ]
+    ],
+    "distractor_goal_specs": [
+        [
+            "in",
+            "object_0",
+            "microwave_0_heating_region"
+        ],
+        [
+            "on",
+            "object_0",
+            "plate_1"
+        ],
+        [
+            "in",
+            "plate_1",
+            "dest_object_contain_region"
+        ],
+        [
+            "in",
+            "plate_1",
+            "microwave_0_heating_region"
+        ],
+        [
+            "on",
+            "plate_1",
+            "plate_1"
+        ],
+        [
+            "in",
+            "carrot_2",
+            "dest_object_contain_region"
+        ],
+        [
+            "in",
+            "carrot_2",
+            "microwave_0_heating_region"
+        ],
+        [
+            "on",
+            "carrot_2",
+            "plate_1"
+        ],
+        [
+            "in",
+            "beer_3",
+            "dest_object_contain_region"
+        ],
+        [
+            "in",
+            "beer_3",
+            "microwave_0_heating_region"
+        ],
+        [
+            "on",
+            "beer_3",
+            "plate_1"
+        ]
+    ],
+    "demonstration_states": [
+        [
+            "grasp_left",
+            "object_0"
+        ],
+        [
+            "lifted",
+            "object_0"
+        ],
+        [
+            "grasp_right",
+            "object_0"
+        ],
+        [
+            "in",
+            "object_0",
+            "dest_object_contain_region"
+        ]
+    ],
+    "language_instruction": [
+        "put",
+        "the",
+        "thermos",
+        "in",
+        "the",
+        "basket"
+    ]
+}
