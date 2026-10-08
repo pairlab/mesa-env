@@ -1,0 +1,394 @@
+{
+    "problem_name": "mimiclabs_lab1_tabletop_manipulation",
+    "fixtures": {
+        "table": [
+            "table"
+        ],
+        "sliding_top_box_810": [
+            "articulated_object"
+        ]
+    },
+    "regions": {
+        "table_object_0_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.0
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_condiment_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_plate_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_pear_3_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_bowl_drainer_0_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                0.0,
+                0.0
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_articulated_object_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.3,
+                    0.0
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "bowl_drainer_0_left_region": {
+            "target": "bowl_drainer_0",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "bowl_drainer_0_right_region": {
+            "target": "bowl_drainer_0",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "articulated_object_contain_region": {
+            "target": "articulated_object",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        }
+    },
+    "objects": {
+        "robocasa_cupcake_3": [
+            "object_0"
+        ],
+        "robocasa_condiment_3": [
+            "condiment_1"
+        ],
+        "robocasa_plate_4": [
+            "plate_2"
+        ],
+        "robocasa_pear_17": [
+            "pear_3"
+        ],
+        "bowl_drainer": [
+            "bowl_drainer_0"
+        ]
+    },
+    "textures": {},
+    "camera": {
+        "rightshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 1.5707963267948966,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "leftshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": -1.5707963267948966,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "midshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 0.0,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        },
+        "egocentric": {
+            "r": 1.3,
+            "theta": 0.39479111969976155,
+            "phi": 0.0,
+            "tilt": 0.0,
+            "pan": 0.0,
+            "r_radius": 0.0,
+            "theta_radius": 0.0,
+            "phi_radius": 0.0
+        }
+    },
+    "lighting": {},
+    "styles": {},
+    "scene_properties": {},
+    "initial_state": [
+        [
+            "on",
+            "object_0",
+            "table_object_0_init_region"
+        ],
+        [
+            "on",
+            "condiment_1",
+            "table_condiment_1_init_region"
+        ],
+        [
+            "on",
+            "plate_2",
+            "table_plate_2_init_region"
+        ],
+        [
+            "on",
+            "pear_3",
+            "table_pear_3_init_region"
+        ],
+        [
+            "on",
+            "bowl_drainer_0",
+            "table_bowl_drainer_0_init_region"
+        ],
+        [
+            "on",
+            "articulated_object",
+            "table_articulated_object_init_region"
+        ]
+    ],
+    "goal_state": [
+        "and",
+        [
+            "open",
+            "articulated_object"
+        ],
+        [
+            "in",
+            "object_0",
+            "articulated_object_contain_region"
+        ]
+    ],
+    "distractor_goal_specs": [
+        [
+            "in",
+            "object_0",
+            "bowl_drainer_0_left_region"
+        ],
+        [
+            "in",
+            "object_0",
+            "bowl_drainer_0_right_region"
+        ],
+        [
+            "on",
+            "object_0",
+            "plate_2"
+        ],
+        [
+            "in",
+            "condiment_1",
+            "bowl_drainer_0_left_region"
+        ],
+        [
+            "in",
+            "condiment_1",
+            "bowl_drainer_0_right_region"
+        ],
+        [
+            "in",
+            "condiment_1",
+            "articulated_object_contain_region"
+        ],
+        [
+            "on",
+            "condiment_1",
+            "plate_2"
+        ],
+        [
+            "in",
+            "plate_2",
+            "bowl_drainer_0_left_region"
+        ],
+        [
+            "in",
+            "plate_2",
+            "bowl_drainer_0_right_region"
+        ],
+        [
+            "in",
+            "plate_2",
+            "articulated_object_contain_region"
+        ],
+        [
+            "on",
+            "plate_2",
+            "plate_2"
+        ],
+        [
+            "in",
+            "pear_3",
+            "bowl_drainer_0_left_region"
+        ],
+        [
+            "in",
+            "pear_3",
+            "bowl_drainer_0_right_region"
+        ],
+        [
+            "in",
+            "pear_3",
+            "articulated_object_contain_region"
+        ],
+        [
+            "on",
+            "pear_3",
+            "plate_2"
+        ]
+    ],
+    "demonstration_states": [
+        [
+            "open",
+            "articulated_object"
+        ],
+        [
+            "grasp",
+            "object_0"
+        ],
+        [
+            "in",
+            "object_0",
+            "articulated_object_contain_region"
+        ]
+    ],
+    "language_instruction": [
+        "open",
+        "the",
+        "box",
+        "and",
+        "put",
+        "the",
+        "cupcake",
+        "in",
+        "it"
+    ]
+}

@@ -1,0 +1,441 @@
+{
+    "problem_name": "mimiclabs_lab1_tabletop_manipulation",
+    "fixtures": {
+        "table": [
+            "table"
+        ],
+        "microwave_51": [
+            "microwave_51_1"
+        ]
+    },
+    "regions": {
+        "table_microwave_51_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    -0.15,
+                    -0.4,
+                    -0.05,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_object_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_squash_5_15_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_chefmate_8_frypan_15_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_rolling_pin_3_15_3_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_potato_0_15_4_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_broccoli_0_15_5_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_garlic_0_15_6_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_fish_6_15_7_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "microwave_51_1_heating_region": {
+            "target": "microwave_51_1",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        }
+    },
+    "objects": {
+        "robocasa_canned_food_18": [
+            "object_1"
+        ],
+        "robocasa_squash_5": [
+            "robocasa_squash_5_15_1"
+        ],
+        "chefmate_8_frypan": [
+            "chefmate_8_frypan_15_2"
+        ],
+        "robocasa_rolling_pin_3": [
+            "robocasa_rolling_pin_3_15_3"
+        ],
+        "robocasa_potato_0": [
+            "robocasa_potato_0_15_4"
+        ],
+        "robocasa_broccoli_0": [
+            "robocasa_broccoli_0_15_5"
+        ],
+        "robocasa_garlic_0": [
+            "robocasa_garlic_0_15_6"
+        ],
+        "robocasa_fish_6": [
+            "robocasa_fish_6_15_7"
+        ]
+    },
+    "textures": {},
+    "camera": {
+        "rightshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        },
+        "leftshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": -0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        }
+    },
+    "lighting": {},
+    "styles": {
+        "floor": "c707d14d-3089-4a3e-a5b2-1088eda621bc",
+        "wall": "wall0",
+        "table": "red_wood_planks"
+    },
+    "scene_properties": {},
+    "initial_state": [
+        [
+            "on",
+            "microwave_51_1",
+            "table_microwave_51_1_init_region"
+        ],
+        [
+            "on",
+            "object_1",
+            "table_object_1_init_region"
+        ],
+        [
+            "on",
+            "robocasa_squash_5_15_1",
+            "table_robocasa_squash_5_15_1_init_region"
+        ],
+        [
+            "on",
+            "chefmate_8_frypan_15_2",
+            "table_chefmate_8_frypan_15_2_init_region"
+        ],
+        [
+            "on",
+            "robocasa_rolling_pin_3_15_3",
+            "table_robocasa_rolling_pin_3_15_3_init_region"
+        ],
+        [
+            "on",
+            "robocasa_potato_0_15_4",
+            "table_robocasa_potato_0_15_4_init_region"
+        ],
+        [
+            "on",
+            "robocasa_broccoli_0_15_5",
+            "table_robocasa_broccoli_0_15_5_init_region"
+        ],
+        [
+            "on",
+            "robocasa_garlic_0_15_6",
+            "table_robocasa_garlic_0_15_6_init_region"
+        ],
+        [
+            "on",
+            "robocasa_fish_6_15_7",
+            "table_robocasa_fish_6_15_7_init_region"
+        ]
+    ],
+    "goal_state": [
+        "and",
+        [
+            "open",
+            "microwave_51_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "microwave_51_1_heating_region"
+        ]
+    ],
+    "distractor_goal_specs": [
+        [
+            "on",
+            "object_1",
+            "chefmate_8_frypan_15_2"
+        ],
+        [
+            "in",
+            "robocasa_squash_5_15_1",
+            "microwave_51_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_squash_5_15_1",
+            "chefmate_8_frypan_15_2"
+        ],
+        [
+            "in",
+            "chefmate_8_frypan_15_2",
+            "microwave_51_1_heating_region"
+        ],
+        [
+            "on",
+            "chefmate_8_frypan_15_2",
+            "chefmate_8_frypan_15_2"
+        ],
+        [
+            "in",
+            "robocasa_rolling_pin_3_15_3",
+            "microwave_51_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_rolling_pin_3_15_3",
+            "chefmate_8_frypan_15_2"
+        ],
+        [
+            "in",
+            "robocasa_potato_0_15_4",
+            "microwave_51_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_potato_0_15_4",
+            "chefmate_8_frypan_15_2"
+        ],
+        [
+            "in",
+            "robocasa_broccoli_0_15_5",
+            "microwave_51_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_broccoli_0_15_5",
+            "chefmate_8_frypan_15_2"
+        ],
+        [
+            "in",
+            "robocasa_garlic_0_15_6",
+            "microwave_51_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_garlic_0_15_6",
+            "chefmate_8_frypan_15_2"
+        ],
+        [
+            "in",
+            "robocasa_fish_6_15_7",
+            "microwave_51_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_fish_6_15_7",
+            "chefmate_8_frypan_15_2"
+        ]
+    ],
+    "demonstration_states": [
+        [
+            "open",
+            "microwave_51_1"
+        ],
+        [
+            "grasp",
+            "object_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "microwave_51_1_heating_region"
+        ]
+    ],
+    "language_instruction": [
+        "open",
+        "the",
+        "microwave",
+        "and",
+        "put",
+        "the",
+        "canned",
+        "food",
+        "in",
+        "it"
+    ]
+}

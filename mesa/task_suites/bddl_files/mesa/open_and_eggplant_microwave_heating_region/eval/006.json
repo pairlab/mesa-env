@@ -1,0 +1,545 @@
+{
+    "problem_name": "mimiclabs_lab1_tabletop_manipulation",
+    "fixtures": {
+        "table": [
+            "table"
+        ],
+        "microwave_36": [
+            "microwave_36_1"
+        ]
+    },
+    "regions": {
+        "table_microwave_36_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    -0.15,
+                    -0.4,
+                    -0.05,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_object_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_canned_food_15_7_1_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_cutting_board_2_7_2_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_corn_3_7_3_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_basket_7_4_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_tomato_5_7_5_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_jam_2_7_6_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_bowl_13_7_7_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "table_robocasa_potato_5_7_8_init_region": {
+            "target": "table",
+            "ranges": [
+                [
+                    0.05,
+                    -0.4,
+                    0.4,
+                    0.4
+                ]
+            ],
+            "extra": [],
+            "yaw_rotation": [
+                -1.5707963267948966,
+                1.5707963267948966
+            ],
+            "rgba": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        "basket_7_4_contain_region": {
+            "target": "basket_7_4",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        "microwave_36_1_heating_region": {
+            "target": "microwave_36_1",
+            "ranges": [],
+            "extra": [],
+            "yaw_rotation": [
+                0,
+                0
+            ],
+            "rgba": [
+                0,
+                0,
+                1,
+                0
+            ]
+        }
+    },
+    "objects": {
+        "robocasa_eggplant_1": [
+            "object_1"
+        ],
+        "robocasa_canned_food_15": [
+            "robocasa_canned_food_15_7_1"
+        ],
+        "robocasa_cutting_board_2": [
+            "robocasa_cutting_board_2_7_2"
+        ],
+        "robocasa_corn_3": [
+            "robocasa_corn_3_7_3"
+        ],
+        "basket": [
+            "basket_7_4"
+        ],
+        "robocasa_tomato_5": [
+            "robocasa_tomato_5_7_5"
+        ],
+        "robocasa_jam_2": [
+            "robocasa_jam_2_7_6"
+        ],
+        "robocasa_bowl_13": [
+            "robocasa_bowl_13_7_7"
+        ],
+        "robocasa_potato_5": [
+            "robocasa_potato_5_7_8"
+        ]
+    },
+    "textures": {},
+    "camera": {
+        "rightshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": 0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        },
+        "leftshoulder": {
+            "r": 1.2,
+            "theta": 1.0471975511965976,
+            "phi": -0.7853981633974483,
+            "r_radius": 0.1,
+            "theta_radius": 0.1,
+            "phi_radius": 0.1
+        }
+    },
+    "lighting": {},
+    "styles": {
+        "floor": "gray_ceramic_tile",
+        "wall": "stone_bricks",
+        "table": "dark_wood"
+    },
+    "scene_properties": {},
+    "initial_state": [
+        [
+            "on",
+            "microwave_36_1",
+            "table_microwave_36_1_init_region"
+        ],
+        [
+            "on",
+            "object_1",
+            "table_object_1_init_region"
+        ],
+        [
+            "on",
+            "robocasa_canned_food_15_7_1",
+            "table_robocasa_canned_food_15_7_1_init_region"
+        ],
+        [
+            "on",
+            "robocasa_cutting_board_2_7_2",
+            "table_robocasa_cutting_board_2_7_2_init_region"
+        ],
+        [
+            "on",
+            "robocasa_corn_3_7_3",
+            "table_robocasa_corn_3_7_3_init_region"
+        ],
+        [
+            "on",
+            "basket_7_4",
+            "table_basket_7_4_init_region"
+        ],
+        [
+            "on",
+            "robocasa_tomato_5_7_5",
+            "table_robocasa_tomato_5_7_5_init_region"
+        ],
+        [
+            "on",
+            "robocasa_jam_2_7_6",
+            "table_robocasa_jam_2_7_6_init_region"
+        ],
+        [
+            "on",
+            "robocasa_bowl_13_7_7",
+            "table_robocasa_bowl_13_7_7_init_region"
+        ],
+        [
+            "on",
+            "robocasa_potato_5_7_8",
+            "table_robocasa_potato_5_7_8_init_region"
+        ]
+    ],
+    "goal_state": [
+        "and",
+        [
+            "open",
+            "microwave_36_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "microwave_36_1_heating_region"
+        ]
+    ],
+    "distractor_goal_specs": [
+        [
+            "in",
+            "object_1",
+            "basket_7_4_contain_region"
+        ],
+        [
+            "on",
+            "object_1",
+            "robocasa_cutting_board_2_7_2"
+        ],
+        [
+            "on",
+            "object_1",
+            "robocasa_bowl_13_7_7"
+        ],
+        [
+            "in",
+            "robocasa_canned_food_15_7_1",
+            "basket_7_4_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_canned_food_15_7_1",
+            "microwave_36_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_canned_food_15_7_1",
+            "robocasa_cutting_board_2_7_2"
+        ],
+        [
+            "on",
+            "robocasa_canned_food_15_7_1",
+            "robocasa_bowl_13_7_7"
+        ],
+        [
+            "in",
+            "robocasa_corn_3_7_3",
+            "basket_7_4_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_corn_3_7_3",
+            "microwave_36_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_corn_3_7_3",
+            "robocasa_cutting_board_2_7_2"
+        ],
+        [
+            "on",
+            "robocasa_corn_3_7_3",
+            "robocasa_bowl_13_7_7"
+        ],
+        [
+            "in",
+            "robocasa_tomato_5_7_5",
+            "basket_7_4_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_tomato_5_7_5",
+            "microwave_36_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_tomato_5_7_5",
+            "robocasa_cutting_board_2_7_2"
+        ],
+        [
+            "on",
+            "robocasa_tomato_5_7_5",
+            "robocasa_bowl_13_7_7"
+        ],
+        [
+            "in",
+            "robocasa_jam_2_7_6",
+            "basket_7_4_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_jam_2_7_6",
+            "microwave_36_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_jam_2_7_6",
+            "robocasa_cutting_board_2_7_2"
+        ],
+        [
+            "on",
+            "robocasa_jam_2_7_6",
+            "robocasa_bowl_13_7_7"
+        ],
+        [
+            "in",
+            "robocasa_bowl_13_7_7",
+            "basket_7_4_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_bowl_13_7_7",
+            "microwave_36_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_bowl_13_7_7",
+            "robocasa_cutting_board_2_7_2"
+        ],
+        [
+            "on",
+            "robocasa_bowl_13_7_7",
+            "robocasa_bowl_13_7_7"
+        ],
+        [
+            "in",
+            "robocasa_potato_5_7_8",
+            "basket_7_4_contain_region"
+        ],
+        [
+            "in",
+            "robocasa_potato_5_7_8",
+            "microwave_36_1_heating_region"
+        ],
+        [
+            "on",
+            "robocasa_potato_5_7_8",
+            "robocasa_cutting_board_2_7_2"
+        ],
+        [
+            "on",
+            "robocasa_potato_5_7_8",
+            "robocasa_bowl_13_7_7"
+        ]
+    ],
+    "demonstration_states": [
+        [
+            "open",
+            "microwave_36_1"
+        ],
+        [
+            "grasp",
+            "object_1"
+        ],
+        [
+            "in",
+            "object_1",
+            "microwave_36_1_heating_region"
+        ]
+    ],
+    "language_instruction": [
+        "open",
+        "the",
+        "microwave",
+        "and",
+        "put",
+        "the",
+        "eggplant",
+        "in",
+        "it"
+    ]
+}
