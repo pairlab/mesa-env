@@ -53,7 +53,7 @@ dependencies = [
     "transforms3d",
     "matplotlib",
     "numpy>=1.26,<2.0",
-    "opencv-python==4.6.0.66",
+    "opencv-python==4.8.1.78",
     "mujoco==3.4.0",
     
     # Robotics and simulation
